@@ -1,11 +1,8 @@
-Linux machine with modern vulnerabilities
-===========================================
+# 🇬🇧 Linux machine with modern vulnerabilities
 
-Master's thesis in Computer Security
----------------------------------------------------------------
+## Master's thesis in Computer Security
 
-International University of la Rioja, Julio 2023
--------------------------------------------------
+## International University of la Rioja, Julio 2023
 
 * * *
 
@@ -35,14 +32,11 @@ Links:
 <br>
 
 
-Sistema Linux con vulnerabilidades modernas
-===========================================
+# 🇪🇸 Sistema Linux con vulnerabilidades modernas
 
-Trabajo de fin de Máster Universitario en Seguridad Informática
----------------------------------------------------------------
+## Trabajo de fin de Máster Universitario en Seguridad Informática
 
-Universidad Internacional de la Rioja, Julio 2023
--------------------------------------------------
+## Universidad Internacional de la Rioja, Julio 2023
 
 * * *
 
