@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Instrucciones</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Sistema Linux con vulnerabilidades modernas</h1>
+    <h2 class="subtitle">Trabajo de fin de Máster Universitario en Seguridad Informática</h2>
+    <h2 class="subtitle">Universidad Internacional de la Rioja, Julio 2023</h2>
+    <hr class="separator">
+    <div class="author">
+      <span class="author-label">Autor:</span>
+      <span class="author-name">Javier Helguera López</span>
+    </div>
+    <div class="director">
+      <span class="director-label">Director:</span>
+      <span class="director-name">Tomás Miguel Sureda Riera</span>
+    </div>
+    <hr class="separator">
+    <p class="description">
+        En esta máquina virtual se han incluido varias vulnerabilidades modernas que pueden ser explotadas para acceder a su contenido.
+    </p>
+    <p class="description">
+        Objetivo:<br> Se ha escondido un código secreto en algún lugar de la máquina. Deberás encontrarlo y comprobar que es correcto en el formulario de esta misma página.
+    </p>
+    <p class="description">
+        Importante:<br> La máquina está diseñada para ser instalada en un entorno controlado y nunca en un servidor en producción!
+    </p>
+    <hr class="separator">
+    <p>Enlaces:<br>
+    <a href="https://github.com/Helguera/TFM-UNIR-2023">Repositorio en GitHub</a><br>
+    <a href="mailto:javier@javierhelguera.com">javier@javierhelguera.com</a></p>
+    <hr class="separator">
+    {% if error %}
+      <p class="error", style="margin-top: 20px;">El código ingresado no es correcto. Inténtalo nuevamente.</p>
+    {% endif %}
+    {% if success %}
+      <p class="success" style="margin-top: 20px;">¡El código ingresado es correcto! Enhorabuena por haber completado el desafío.</p>
+    {% endif %}
+    <form method="POST">
+      <input type="text" name="codigo" placeholder="Ingrese el código" required style="margin-bottom: 15px;">
+      <button type="submit">Validar</button>
+    </form>
+  </div>
+</body>
+</html>

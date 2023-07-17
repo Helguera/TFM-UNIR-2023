@@ -1,0 +1,39 @@
+<!-- change_username.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cambiar nombre de usuario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="text-center mb-4">Cambiar nombre de usuario</h1>
+
+                {% if message %}
+                    <div class="alert alert-success">{{ message }}</div>
+                {% endif %}
+
+                <form method="GET" action="/update_username">
+                    <div class="form-group">
+                        <label for="new_username">Nuevo nombre de usuario:</label>
+                        <input type="text" class="form-control" id="new_username" name="new_username">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Actualizar nombre de usuario</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
