@@ -1,8 +1,8 @@
-# 🇬🇧 Linux machine with modern vulnerabilities
+# 🇬🇧 Master's thesis in Cybersecurity by Javier Helguera
 
-## Master's thesis in Computer Security
+### Linux system with modern vulnerabilities
 
-## International University of la Rioja, Julio 2023
+#### International University of la Rioja, July 2023
 
 * * *
 
@@ -31,12 +31,11 @@ Links:
 
 <br>
 
+# 🇪🇸 Trabajo de Fin de Máster Universitario en Seguridad Informática por Javier Helguera
 
-# 🇪🇸 Sistema Linux con vulnerabilidades modernas
+### Sistema Linux con vulnerabilidades modernas
 
-## Trabajo de fin de Máster Universitario en Seguridad Informática
-
-## Universidad Internacional de la Rioja, Julio 2023
+#### Universidad Internacional de la Rioja, Julio 2023
 
 * * *
 
